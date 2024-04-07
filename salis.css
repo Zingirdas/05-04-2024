@@ -1,0 +1,49 @@
+.mainCard {
+    border: none;
+
+}
+
+.mainText {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px 0px;
+    font-family: bungee spice;
+    font-size: 2rem;
+}
+
+.form-control {
+    border: solid 2px green;
+    margin-left: 60px;
+}
+
+.btn-outline-success {
+    border: solid 2px green;
+    margin-left: 60px;
+}
+
+.col-md-4 {
+    border: solid 0.5px rgb(226, 114, 114);
+    padding: 8px 0px;
+    margin-left: 60px;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+
+.col-md-6 {
+    border: solid 0.5px rgb(226, 114, 114);
+    padding: 8px 0px;
+    margin-right: 20px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.flag,
+.coat-of-arms {
+    width: 100px;
+    height: auto;
+}
