@@ -17,11 +17,14 @@
 .form-control {
     border: solid 2px green;
     margin-left: 60px;
+    padding: 10px 20px;
+    margin-top: 40px;
 }
 
 .btn-outline-success {
     border: solid 2px green;
     margin-left: 60px;
+    padding: 10px 30px;
 }
 
 .col-md-4 {

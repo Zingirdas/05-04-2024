@@ -14,6 +14,14 @@
 </head>
 
 <body style="background-color: antiquewhite;">
+    <div class="overlay" id="loading">
+        <div class="row" style="min-height: 100vh;">
+            <div class="d-flex align-items-center">
+                <div class="spinner-border" role="status" style="margin-left:50% ;">
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="container">
         <div class="mainCard mt-5">
             <div class="mainText">sužinok apie norimą šalį</div>
@@ -21,15 +29,16 @@
 
                 <div class="col-md-3">
                     <div class="mb-3">
-                        <input id="ieskotiPav" class="form-control" type="search" placeholder="įveskite šalies pavadinimą">
+                        <select id="ieskotiPav" class="form-control" type="search" placeholder="įveskite šalies pavadinimą"></select>
                     </div>
-                    <button id="ieskoti" class="btn btn-outline-success col-md-3" type="submit">Ieškoti</button>
+                    <button id="ieskoti" class="btn btn-outline-success" type="submit">Ieškoti</button>
 
                 </div>
             </div>
         </div>
         <div class="listCard-md-12 mt-5">
             <div class="row">
+                <div class="alert alert-danger" id="pranesimas"></div>
                 <div class="col-md-4">
                     <label class="form-label1" style="margin-left: 20px;">Šalies pavadinimas:</label>
                 </div>
